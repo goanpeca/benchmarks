@@ -13,7 +13,6 @@ jobs:
       BROWSERS: '["chromium"]'
       PLAYWRIGTH: ${{ matrix.PLAYWRIGTH }}
       JLAB_HOME: '/home/runner/work/benchmarks/jupyterlab'
-      # JLAB_REPO: "https://github.com/goanpeca/jupyterlab.git"
       JLAB_REPO: "https://github.com/jupyterlab/jupyterlab.git"
       # BENCHMARKS
       BENCHMARK_NOTEBOOKS: '["./fixedDataTable", "./longOutput"]'
